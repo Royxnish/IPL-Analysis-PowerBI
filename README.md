@@ -1,50 +1,54 @@
-# IPL Analysis Project
+# IPL Analysis Dashboard
 
-Welcome to the IPL Analysis Project repository. This project provides a comprehensive analysis of Indian Premier League (IPL) cricket data, offering valuable insights into team performances, player statistics, and historical trends from 2008 to 2022.
+## Overview
 
-## Project Overview
+This project presents an interactive Power BI dashboard built using IPL match and player data from 2008–2022. The objective was to analyze team performance, player statistics, venue trends, and season-wise insights through data visualization and analytics.
 
-The IPL Analysis Project is designed to deliver an in-depth exploration of IPL cricket data, focusing on:
+## Technologies Used
 
-- Team and player performance metrics
-- Match venues and outcomes
-- Year-wise and team-wise comparisons
-- Historical trends and predictive insights
+- Power BI
+- SQL
+- Microsoft Excel
+- Data Visualization
 
-## Features
+## Dataset
 
-- **Historical Analysis:** Review title winners, Orange Cap and Purple Cap holders, and team performance across seasons.
-- **Interactive Exploration:** Filter and analyze statistics by year, team, or player for a tailored experience.
-- **Team Performance Evaluation:** Assess team results in eliminators, analyze venue statistics, and compare key metrics such as boundaries (fours vs. sixes).
-- **Player Impact:** Identify top run-scorers and wicket-takers for each season to evaluate individual contributions.
-- **Rivalry Insights:** Compare the performance and rivalry between Mumbai Indians and Chennai Super Kings.
-- **Predictive Analytics:** Leverage historical data to gain insights into potential title winners for each season.
+The project uses IPL datasets containing:
 
-## Repository Contents
+- Match-level information
+- Ball-by-ball records
+- Team performance statistics
+- Player performance statistics
 
-- **Documentation (PDF):** Detailed project description and dashboard screenshots.
-- **Video Presentation:** Guided walkthrough of the interactive dashboard.
-- **Dataset:** IPL cricket data used for analysis.
+Data Period: 2008–2022
 
-## Getting Started
+## Key Analysis Areas
 
-To begin exploring the IPL Analysis Project:
+- Team Performance Analysis
+- Player Performance Analysis
+- Venue Analysis
+- Season-wise Trends
+- Toss Impact Analysis
+- Match Outcome Analysis
 
-1. **Clone the Repository:**  
-   ```bash
-   git clone <repository-url>
-   ```
-2. **Review Documentation:**  
-   Refer to the included PDF for a comprehensive project overview.
-3. **Watch the Video Presentation:**  
-   View the dashboard walkthrough for a visual introduction.
-4. **Explore the Dataset:**  
-   Analyze the IPL data or use it to extend the project’s capabilities.
+## Dashboard Features
 
-## Contributing
+- Interactive filters and slicers
+- Team comparison views
+- Player performance metrics
+- Season-level trend analysis
+- Venue-based insights
 
-Contributions are welcome! If you have suggestions, feature requests, or improvements, please open an issue or submit a pull request.
+## Key Insights
 
----
+- Identified top-performing teams across seasons.
+- Analyzed player contribution patterns.
+- Evaluated venue influence on match outcomes.
+- Explored long-term IPL performance trends.
 
-Feel free to explore, analyze, and gain new insights into the world of IPL cricket with this project.
+## Repository Structure
+
+IPL_Analysis.mp4
+README.md
+ipl_ball_by_ball_2008_2022.csv
+ipl_matches_2008_2022.csv
